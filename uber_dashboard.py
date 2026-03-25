@@ -3,7 +3,7 @@ import pandas as pd
 from streamlit_option_menu import option_menu
 import plotly.express as px
 
-df = pd.read_csv('uber_data.csv')
+df = pd.read_csv('data/uber_data.csv')
 
 st.set_page_config('🚗 Uber Analytics Pro', layout='wide', page_icon='🚗')
 

@@ -3,8 +3,7 @@ import pandas as pd
 from streamlit_option_menu import option_menu
 import plotly.express as px 
 
-df = pd.read_csv('D:/Data Science and GEN AI/Streamlit/Uber data set ncr - ncr_ride_bookings.csv')
-print(df.columns)
+df = pd.read_csv('data/uber_data.csv')
 
 st.set_page_config('Uber Dashboard',layout='wide')
 

@@ -159,6 +159,7 @@ if selected == "Ride Analytics" :
     # sunbust chart
     st.subheader('Sunburst')
     st.write('Click on Vehicle to get more insights')
+    st.write('What it says: Most used payment method by vehicle')
     fig1 = px.sunburst(
         completed,
         path=['Vehicle Type','Payment Method'],
@@ -172,6 +173,7 @@ if selected == "Ride Analytics" :
     # Tree map
     st.divider()
     st.subheader('Tree map')
+    st.wirte('Highest use of payment method')
     fig2 = px.treemap(
         completed,
         path=['Payment Method','Vehicle Type'],

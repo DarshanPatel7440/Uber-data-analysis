@@ -158,6 +158,7 @@ if selected == "Ride Analytics" :
     completed = df[df['Booking Status'] == 'Completed']
     # sunbust chart
     st.subheader('Sunburst')
+    st.write('Click on Vehicle to get more insights')
     fig1 = px.sunburst(
         completed,
         path=['Vehicle Type','Payment Method'],

@@ -200,7 +200,7 @@ if selected == 'Data Assistance' :
 
     st.header('You can ask anything to this chat bot.')
 
-    user_question = st.chat_input('Enter want you want to analyze.')    
+    user_question = st.chat_input('Enter want you want to analyze. (e.g. Ride analysis)')    
 
     completed = df[df['Booking Status'] == 'Completed']
 

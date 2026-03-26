@@ -173,7 +173,7 @@ if selected == "Ride Analytics" :
     # Tree map
     st.divider()
     st.subheader('Tree map')
-    st.wirte('Highest use of payment method')
+    st.write('Highest use of payment method')
     fig2 = px.treemap(
         completed,
         path=['Payment Method','Vehicle Type'],
